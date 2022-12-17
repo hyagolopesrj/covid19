@@ -2,7 +2,7 @@ import pandas as pd
 import ploty.express as px #BIBLIOTECA USADA PARA PLOTAR O GRÁFICO
 import streamlit as st #BIBLIOTECA USADA PARA O FRONTEND
 
-streamlit run main_covid.py
+#streamlit run main_covid.py
 
 #LENDO O DATASET
 df = pd.read.csv('https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv')
