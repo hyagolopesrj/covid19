@@ -1,5 +1,5 @@
 import pandas as pd
-import ploty.express as px #BIBLIOTECA USADA PARA PLOTAR O GRÁFICO
+import plotly.express as px #BIBLIOTECA USADA PARA PLOTAR O GRÁFICO
 import streamlit as st #BIBLIOTECA USADA PARA O FRONTEND
 
 #streamlit run main_covid.py
