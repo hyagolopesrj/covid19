@@ -18,7 +18,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/wcota/covid19br/master/cases
 df = df.rename(columns={'newDeaths': 'Novos óbitos', 'newCases': 'Novos casos','deaths_per_100k_inhabitants': 'óbitos por 100 mil habitantes', 'totalCases_per_100k_inhabitants':'Casos por 100 mil habitantes'})
 
 #SELEÇÃO DO ESTADO
-estado = list(df['state'].unique())  #LISTA OS ESTADOS
+estados = list(df['state'].unique())  #LISTA OS ESTADOS
 state = st.sidebar.selectbox('Qual estado?', estados) #BARRA DE SELEÇÃO DOS ESTADOS
 
 #SELEÇÃO DA COLUNA
