@@ -12,7 +12,7 @@ import streamlit as st #BIBLIOTECA USADA PARA O FRONTEND
 #streamlit run main_covid.py
 
 #LENDO O DATASET
-df = pd.read.csv('https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv')
 
 #RENOMEANDO O NOME DAS COLUNAS DA TABELA
 df = df.rename(columns={'newDeaths': 'Novos óbitos', 'newCases': 'Novos casos','deaths_per_100k_inhabitants': 'óbitos por 100 mil habitantes', 'totalCases_per_100k_inhabitants':'Casos por 100 mil habitantes'})
